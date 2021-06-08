@@ -11,7 +11,7 @@ body{
 
 .topo{
     width: 100%;
-    height: 5em;
+    height: 6em;
     background-color: rgb(37, 189, 194);
 }
 
@@ -20,17 +20,17 @@ body{
     height: 100%;
     max-width: 75em;
     margin: auto;
-    background-color: rgb(189, 172, 166);
+    background-color: rgb(209, 195, 189);
 }
 
 .flex-center-bt{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-.topo img{
-    max-width: 5em ;
+.menu img{
+    max-width: 5em;
 }
 
 .menu{
@@ -42,7 +42,7 @@ body{
     list-style-type: none;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .menu a{
@@ -81,3 +81,4 @@ body{
     align-items: center;
     color: black;
 }
+
